@@ -1,0 +1,114 @@
+header {
+    min-height: 56px;
+    left: 0px;
+    top: 0px;
+    background: #343A40;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.nlk-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.text-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.nlk-header:hover{
+    color: #FFFFFF;
+} 
+.text-header:hover{
+    color: #FFFFFF;
+} 
+.portfolio-block {
+    height: 342px;
+    left: 0px;
+    top: 0px;
+    background: #E9ECEF;
+}
+.portfolio-block_children {
+    width:550px;
+    padding-top:50px;
+    padding-left: 25px;
+}
+.portfolio-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    color: #212529;
+}
+.portfolio-text-paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212529;
+}
+.portfolio-button {
+    background: #007BFF;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.card{
+    display: inline-block;
+    margin-left:5%;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.profile {
+    width: 30em;
+}
+.table {
+    width: 88vw;
+    margin-top:20px;
+}
+.table-block-scroll{
+    overflow-x:auto;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom-block {
+    height: 51px;
+    background: #F5F5F5;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6C757D;
+    padding-top:17px;
+    padding-left: 10%;
+}
+@media (max-width:550px) {
+    .portfolio-block_children {
+        width:100%;
+        padding-right: 25px;
+    }
+    .portfolio-text {
+        font-size: 48px;
+    }
+    .bottom-block{
+        padding-right:20px;
+    }
+    .profile {
+        width: 18em;
+    }
+}
